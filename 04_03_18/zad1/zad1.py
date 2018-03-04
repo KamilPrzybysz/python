@@ -1,0 +1,21 @@
+lista=[1,2,3,4,5]
+print('a) '+str(lista))
+lista.append(6)
+print('b) sposob 1: '+str(lista))
+lista[len(lista):]=[7]
+print('b) sposob 2: '+str(lista))
+lista.insert(0, 99)
+print('c) '+str (lista))
+lista.remove(99)
+print('d) '+str(lista))
+lista.pop(0)
+lista.pop()
+print('f) '+str(lista))
+lista=lista*2
+print('g) '+str(lista))
+lista.reverse()
+print('h) '+str(lista))
+lista.sort()
+print('i) '+str(lista))
+print('j) '+str(len(lista)))
+print('k) ilosc dwojek- '+str(lista.count(2)))
