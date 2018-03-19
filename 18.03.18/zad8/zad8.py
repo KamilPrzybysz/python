@@ -1,0 +1,13 @@
+s='abcdefghij'
+print('a) '+s[0])
+print('b) '+s[:2])
+print('c) '+s[-1])
+print('d) '+s[-2:])
+print('e) '+s[-2])
+print('f) '+s[1:])
+print('g) '+s[:-1])
+print('h) '+s[2:5])
+print('i) '+s[0:6:2])
+print('j) '+s[len(s)-1:0:-3])
+print('k) '+s[-6:])
+print('l) '+s[-4:-2])
