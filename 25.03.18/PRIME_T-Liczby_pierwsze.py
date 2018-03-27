@@ -12,6 +12,8 @@ def funkcja(aa):
                      print("TAK")
             else:
                 print("NIE")
-        return exit() a=int(input()) if(a>=100000):
+        return exit()
+a=int(input())
+if(a>=100000):
         exit()
 print(funkcja(a))
